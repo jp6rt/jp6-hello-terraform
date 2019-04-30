@@ -2,6 +2,7 @@ variable "access_key" {}
 variable "secret_key" {}
 variable "user" {}
 variable "private_key_path" {}
+variable "key_name" {}
 
 variable "region" {
   default = "us-east-1"
