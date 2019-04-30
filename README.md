@@ -1,6 +1,6 @@
 ### Terraform AWS test configuration
 
-#### set-up the aws credentials on the secret.tfvars file
+#### Set-up the aws credentials on the secret.tfvars file
 
 ```
 access_key = "xxx"
@@ -11,9 +11,16 @@ private_key_path = "/xxx/xxx/xxx"
 
 #### Initialize and run terraform
 
-> terraform init
-> terraform apply -var-file=secret.tfvars -var-file=config.tfvars
+```bash
+terraform init
+```
+
+```
+terraform apply -var-file=secret.tfvars -var-file=config.tfvars
+```
 
 #### Always destroy the resource to avoid unnecessary AWS charges
 
-> terraform destroy
+````
+teraform destroy
+```
