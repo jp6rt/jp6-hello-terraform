@@ -22,5 +22,5 @@ terraform apply -var-file=secret.tfvars -var-file=config.tfvars
 #### Always destroy the resource to avoid unnecessary AWS charges
 
 ```
-teraform destroy
+terraform destroy
 ```
